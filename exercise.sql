@@ -5,9 +5,6 @@ use employees;
 desc employees;
 select * from employees;
 
-SELECT emp_no, concat(first_name,' ',last_name)
-FROM employees;
-
 
 SELECT NOW() 늘날짜,
 NOW() +1 하루더한날짜,                           
